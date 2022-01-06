@@ -3,7 +3,7 @@ body{
 
 }
 
-section{
+.flexible_container{
     display: flex;
 }
 h1{
@@ -17,7 +17,7 @@ h1{
 }
 .focused{
     border-left: 4px solid;
-    background-color: salmon;
+    border-color: salmon;
     border-radius: 2px;
     padding-left: 10px;
     
@@ -41,3 +41,48 @@ h1{
 .half_width img{
     width: 80%;
 }
+
+
+
+.text{
+    text-align: center;
+    font-size: 55px;
+}
+span{
+    color: orange;
+}
+.my_mission img{
+    width: 80%;
+}
+.my_mission{
+    margin: 5%;
+}
+.mission_item{
+    padding: 2%;
+ 
+}
+.coding img{
+    margin-left: 20%;
+    width: 70%;
+   
+}
+.Develop{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-y: center;
+    margin-left: 5%;
+    margin-bottom: 10%;
+
+}
+
+.Global{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: bottom;
+    margin-left: 5%;
+    margin-bottom: 10%;
+
+}
+
