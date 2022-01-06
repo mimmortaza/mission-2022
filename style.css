@@ -1,0 +1,43 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+.colour{
+    color: orange;
+}
+.focused_area{
+    padding-top: 5%;
+}
+.focused{
+    border-left: 4px solid;
+    background-color: salmon;
+    border-radius: 2px;
+    padding-left: 10px;
+    
+}
+.link_button{
+    text-decoration: none;
+    
+    background-color: salmon;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+   
+}
+
+
+.half_width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half_width img{
+    width: 80%;
+}
